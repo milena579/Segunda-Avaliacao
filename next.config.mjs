@@ -17,6 +17,10 @@ const nextConfig = {
             {
                 source: "/second-page",
                 destination:"/segunda-pagina"
+            },
+            {
+                source: "/thirt-page",
+                destination:"/terceira-pagina"
             }
         ]
     }

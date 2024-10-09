@@ -13,6 +13,10 @@ const nextConfig = {
             {
                 source: "/first-page",
                 destination: "/primeira-pagina"
+            },
+            {
+                source: "/second-page",
+                destination:"/segunda-pagina"
             }
         ]
     }

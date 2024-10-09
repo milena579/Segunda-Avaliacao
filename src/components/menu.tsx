@@ -3,13 +3,15 @@ import {ROUTES} from "@/constants/routes"
 
 interface IMenu{
     op1: string;
+    op2: string;
 }
 
-export const Menu: React.FC<IMenu> = ({op1}) => {
+export const Menu: React.FC<IMenu> = ({op1, op2}) => {
     return (
         <>
             <nav className="text-white font-roboto flex flex-row justify-center align-center gap-5 text-large bg-indigo-900 p-5">
             <Link href={ROUTES.primeiraPagina}>{op1}</Link>
+            <Link href={ROUTES.segundaPagina}>{op2}</Link>
         </nav>
         
         </>

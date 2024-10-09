@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Menu op1="Primeira Pagina"/>
+        <Menu op1="Primeira Pagina" op2="Segunda Pagina"/>
         {children}
       </body>
     </html>

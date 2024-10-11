@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+
         branco: "var(--white)",
         preto: "var(--black)",
       },

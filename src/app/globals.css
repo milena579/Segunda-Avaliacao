@@ -7,3 +7,10 @@
   --black: #171717;
 }
 
+.fundoPersonagem{
+  display: flex;
+  height: 95vh;
+  width: 100%;
+  background-image: url('/src/img/fundo.jpg');
+  background-size: contain;
+}
